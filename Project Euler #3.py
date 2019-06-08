@@ -42,6 +42,6 @@ def primefactoring(number):
             break
 
 primefactoring(int(number))
-print(Factors)
+print(max(Factors))
 end = time.time()
 print(end - start)
