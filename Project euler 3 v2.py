@@ -54,7 +54,7 @@ def primefinder(number, Number):
 primefinder(int(math.sqrt(Number) + 1), Number)
 
 
-print(factors)
+print(max(factors))
 
 end = time.time()
 print(end - start)
